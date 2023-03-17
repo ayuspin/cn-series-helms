@@ -13,8 +13,8 @@ You can then run `helm search repo cn-series` to see the charts.
 
 To install the chart:
 
-    helm install <chart-name> cn-series-helms/<chart-name>
+    helm install <release-name> cn-series-helms/<chart-name>
 
 To uninstall the chart:
 
-    helm delete <chart-name>
+    helm delete <release-name>
