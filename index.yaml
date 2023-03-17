@@ -12,4 +12,40 @@ entries:
     urls:
     - https://github.com/ayuspin/cn-series-helms/releases/download/cn-series-2.0.0/cn-series-2.0.0.tgz
     version: 2.0.0
-generated: "2023-03-17T16:23:01.06621826Z"
+  pan-cn-k8s-cnf:
+  - apiVersion: v2
+    appVersion: 10.2.0
+    created: "2023-03-17T16:40:11.939846093Z"
+    description: Palo Alto Networks CN-Series firewall Helm chart for Kubernetes
+    digest: c603374445765a554afcc1be36768c5cb9e3634376e45eeb9ce9bd9f407036d6
+    icon: https://www.paloaltonetworks.com/content/dam/pan/en_US/images/logos/brand/strata-primary/Strata_Tagline_Logo_RGB.png
+    name: pan-cn-k8s-cnf
+    type: application
+    urls:
+    - https://github.com/ayuspin/cn-series-helms/releases/download/pan-cn-k8s-cnf-2.0.0/pan-cn-k8s-cnf-2.0.0.tgz
+    version: 2.0.0
+  pan-cn-k8s-daemonset:
+  - apiVersion: v2
+    appVersion: 10.2.0
+    created: "2023-03-17T16:40:12.120393182Z"
+    description: Palo Alto Networks CN-Series firewall Helm chart for Kubernetes
+    digest: bdbd30e111467a9b9163bcbaa2d959c2c39da9b88f7cfae7718c58cb5ae99bc7
+    icon: https://www.paloaltonetworks.com/content/dam/pan/en_US/images/logos/brand/strata-primary/Strata_Tagline_Logo_RGB.png
+    name: pan-cn-k8s-daemonset
+    type: application
+    urls:
+    - https://github.com/ayuspin/cn-series-helms/releases/download/pan-cn-k8s-daemonset-2.0.0/pan-cn-k8s-daemonset-2.0.0.tgz
+    version: 2.0.0
+  pan-cn-k8s-service:
+  - apiVersion: v2
+    appVersion: 10.2.0
+    created: "2023-03-17T16:40:12.267580929Z"
+    description: Palo Alto Networks CN-Series firewall Helm chart for Kubernetes
+    digest: 6b899c806ddad42dca2a030b341488dbcf5b093a8f9d1d47d9fc0bef123e3915
+    icon: https://www.paloaltonetworks.com/content/dam/pan/en_US/images/logos/brand/strata-primary/Strata_Tagline_Logo_RGB.png
+    name: pan-cn-k8s-service
+    type: application
+    urls:
+    - https://github.com/ayuspin/cn-series-helms/releases/download/pan-cn-k8s-service-2.0.0/pan-cn-k8s-service-2.0.0.tgz
+    version: 2.0.0
+generated: "2023-03-17T16:40:12.267590429Z"
