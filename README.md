@@ -5,14 +5,14 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 
 Once Helm has been set up correctly, add the repo as follows:
 
-  helm repo add <repo-name> https://ayuspin.github.io/cn-series-helms/
+  helm repo add cn-series-helms https://ayuspin.github.io/cn-series-helms/
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo cn-series` to see the charts.
 
 To install the chart:
 
-    helm install <chart-name> <alias>/<chart-name>
+    helm install <chart-name> cn-series-helms/<chart-name>
 
 To uninstall the chart:
 
